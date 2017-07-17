@@ -1,22 +1,8 @@
-body,html{
+﻿body,html{
     color: #787878;
     font-family: "微软雅黑";
     font-size: 20px;
 }
-
-
-
-body{
-    margin: 0;
-}
-
-
-
-body{
-    margin: 0;
-}
-
-
 body,h1,h2,h3,h4,h5,h6,p,ul,li{
     margin: 0;
     padding: 0;
@@ -83,7 +69,7 @@ h3{
     color: #e93a57;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
 }
 

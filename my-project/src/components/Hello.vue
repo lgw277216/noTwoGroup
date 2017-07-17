@@ -1,8 +1,10 @@
 <template>
   <div class="hello">
-   <ul class="bottomBox">
-     <li>西方世界</li>
-   </ul>
+    <h2>首页</h2>
+    <!-- <router-link to="/yunShan">登录</router-link> -->
+    <router-link to="/careSystem">注册</router-link>
+    <!-- 路由匹配到的组件将渲染在这里 -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,7 +13,7 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: '一个新的项目'
+      msg: 'Welcome to Your Vue.js App'
     }
   }
 }

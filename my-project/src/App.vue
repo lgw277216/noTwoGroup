@@ -1,23 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <div>
-      <router-link to="/">首页</router-link>
-      <router-link to="/about">about</router-link>
-      <router-link to="/xx">xx</router-link>
+      <!-- <router-link to="/">首页</router-link> -->
+      <!-- <router-link to="/yunShan">yunShan</router-link>
+      <router-link to="/careSystem">careSystem</router-link> -->
+      <router-link to="/branch">分店介绍</router-link>
+      <!-- <router-link to="/nutritionSystem">nutritionSystem</router-link>
+      <router-link to="/securitySystem">securitySystem</router-link>
+      <router-link to="/intelligenceDevelopment">intelligenceDevelopment</router-link>
+      <router-link to="/defenseSystem">defenseSystem</router-link>
+      <router-link to="/plasticBeauty">plasticBeauty</router-link> -->
+      <router-link to="/professionalSystem">专业服务体系</router-link>
+      <router-link to="/rehabilitationSystem">产后妈妈康复系统</router-link>
     </div>
     <router-view></router-view>
-    <foot></foot>
   </div>
 </template>
 
-<script type="es6">
-import foot from './components/Hello'
+<script>
 export default {
-  name: 'app',
-  components:{
-    foot
-  }
+  name: 'app'
 }
 </script>
 
